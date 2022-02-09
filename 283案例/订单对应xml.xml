@@ -1,0 +1,17 @@
+<elementModel name = "WorkflowA" type = "discrete">
+	<state name = "state" discrete = "true">
+		<call name = "int" value = "0"/>
+	</state>
+	
+	
+	<state name = "process1" discrete = "" multiplicity = "" isStatic = "false">
+		<call name = "String" value = "&quote;machine1:5&quote;"/>
+	</state>
+	<state name = "process2" discrete = "" multiplicity = "" isStatic = "false">
+		<call name = "String" value = "&quote;machine2:7&quote;"/>
+	</state>
+	<state name = "process3" discrete = "" multiplicity = "" isStatic = "false">
+		<call name = "String" value = "&quote;complete&quote;"/>
+	</state>
+	
+</elementModel>

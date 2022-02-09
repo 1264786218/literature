@@ -1,0 +1,31 @@
+<elementModel name = "Machine1" type = "discrete">
+	<state name = "state" type = "true">
+		<call name = "int" value = "0"/>
+	</state>
+	
+	<state name = "name" type = "discrete">
+		<call name = "String" value = ""/>
+	</state>
+	<state name = "state" type = "discrete">
+		<call name = "String" value = "&quote;Idle&quote;"/>
+	</state>
+	<state name = "length" type = "discrete">
+		<call name = "double" value = ""/>
+	</state>
+	<state name = "width" type = "discrete">
+		<call name = "double" value = ""/>
+	</state>
+	<state name = "height" type = "discrete">
+		<call name = "double" value = ""/>
+	</state>
+	<state name = "processTime" type = "discrete">
+		<call name = "double" value = ""/>
+	</state>
+	<state name = "function" type = "discrete">
+		<call name = "String" value = ""/>
+	</state>
+	<state name = "num" type = "discrete">
+		<call name = "int" value = ""/>
+	</state>
+	
+</elementModel>
