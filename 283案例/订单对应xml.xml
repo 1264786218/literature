@@ -5,13 +5,13 @@
 	
 	
 	<state name = "process1" discrete = "" multiplicity = "" isStatic = "false">
-		<call name = "String" value = "&quote;machine1:5&quote;"/>
+		<call name = "String" value = "&quot;machine1:5&quot;"/>
 	</state>
 	<state name = "process2" discrete = "" multiplicity = "" isStatic = "false">
-		<call name = "String" value = "&quote;machine2:7&quote;"/>
+		<call name = "String" value = "&quot;machine2:7&quot;"/>
 	</state>
 	<state name = "process3" discrete = "" multiplicity = "" isStatic = "false">
-		<call name = "String" value = "&quote;complete&quote;"/>
+		<call name = "String" value = "&quot;complete&quot;"/>
 	</state>
 	
 </elementModel>
